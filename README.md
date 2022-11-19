@@ -88,13 +88,13 @@ file.
 Lets run the file to train the model. 
 1. Press `Ctrl+F5`
 
-### Questions
+#### Questions
 1. Which variables in the code are used as the training dataset by the function `fit`?
 2. Which variables in the code are used as the testing dataset by the function `fit`?
 3. Is accuracy a good performance measure? Why?
 4. Is categorical cross-entropy the appropriate loss function?  Why?
 
-## The `analysis.py` file
+### The `analysis.py` file
 Now that we have a trained model, we can observe the training error, testing error, and accuracy. 
 
 Run the file to generate the plots
@@ -102,7 +102,7 @@ Run the file to generate the plots
 2. Open the accuracy plot (file name specified in line 22)
 3. Open the loss plot (file name in line 35)
 
-### Questions {#analysis-qs}
+#### Questions{#analysis-qs}
 1. What is difference between validation and testing in this code? 
 2. What is the difference between training/testing loss and training/testing error?
 3. We are using the categorical cross-entropy (CCE) to measure the loss. 
@@ -116,16 +116,19 @@ Run the file to generate the plots
 8. Give the potential reasons that can explain the low accuracy of the model (anything 
    below 90% is considered low)
 
-## Training parameters update 
+## Updating the code to improve performance. 
+Now that you have a trained model, lets see if we can improve it. We can change the training parameters
+and the model itself. 
 
-1. Based on your answers to Q.5 in the `training.py` file [section](#analysis-qs), 
+### Updating the Training Parameters
+1. Based on your answers to Q.5 in the `analysis.py` file [section](#analysis-qs), 
    make changes to the training parameters to improve the testing accuracy and loss. 
 2. Describe your changes. 
 3. Run the `training.py` and `analysis.py` files with your new parameters. 
 4. Did the testing performance improve? Explain why or why not. 
 
-## CNN Model updates
-1. Based on your answers to Q.5 in the `training.py` file [section](#analysis-qs), make changes to the
+### CNN Model updates
+1. Based on your answers to Q.5 in the `analysis.py` file [section](#analysis-qs), make changes to the
    CNN architecture. 
 2. Describe your changes. 
 3. Run the `training.py` and `analysis.py` files with your new parameters. 
