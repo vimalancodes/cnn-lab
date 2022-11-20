@@ -35,6 +35,11 @@ If you need more details on how to install Python and the Python extension, plea
 After you have installed Python and the Python extension, download the code, save it to a new
 folder, and then open the folder in VS-Code.
 
+1. Click on the green button with the `Code` label on the top right of this page.
+2. Click on `Download Zip`
+
+Alternatively, you can use `git`. You can also copy and paste manually from the individual files. 
+
 ### Get the lab code
 1. Go to the course Blackboard page and download the code for the lab 
 2. Create a new folder for your code called `cnn-lab`. You can choose any location for the folder. 
@@ -102,7 +107,7 @@ Run the file to generate the plots
 2. Open the accuracy plot (file name specified in line 22)
 3. Open the loss plot (file name in line 35)
 
-#### Questions{#analysis-qs}
+#### Questions
 1. What is difference between validation and testing in this code? 
 2. What is the difference between training/testing loss and training/testing error?
 3. We are using the categorical cross-entropy (CCE) to measure the loss. 
@@ -121,14 +126,14 @@ Now that you have a trained model, lets see if we can improve it. We can change 
 and the model itself. 
 
 ### Updating the Training Parameters
-1. Based on your answers to Q.5 in the `analysis.py` file [section](#analysis-qs), 
+1. Based on your answers to Q.5 in the `analysis.py` file [section](#the-analysispy-file), 
    make changes to the training parameters to improve the testing accuracy and loss. 
 2. Describe your changes. 
 3. Run the `training.py` and `analysis.py` files with your new parameters. 
 4. Did the testing performance improve? Explain why or why not. 
 
 ### CNN Model updates
-1. Based on your answers to Q.5 in the `analysis.py` file [section](#analysis-qs), make changes to the
+1. Based on your answers to Q.5 in the `analysis.py` file [section](#the-analysispy-file), make changes to the
    CNN architecture. 
 2. Describe your changes. 
 3. Run the `training.py` and `analysis.py` files with your new parameters. 
