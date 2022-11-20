@@ -1,6 +1,5 @@
 """
-# Convolutional Neural Network (CNN) Example
-For details, go to https://www.tensorflow.org/tutorials/images/cnn
+This file is based on the TensorFlow tutorials
 """
 
 """

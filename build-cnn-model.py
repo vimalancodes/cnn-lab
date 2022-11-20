@@ -1,4 +1,7 @@
 """
+This file is based on the TensorFlow tutorials
+"""
+"""
 ### Import TensorFlow
 """
 import tensorflow as tf
